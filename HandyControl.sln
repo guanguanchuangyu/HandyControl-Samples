@@ -50,6 +50,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButtonDemoCtl", "Sampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeScrollViewerDemoCtl", "Samples\Native_Controls\NativeScrollViewerDemoCtl\NativeScrollViewerDemoCtl.csproj", "{114D32CA-7C02-4156-BD3B-CA5AEB5941B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliderDemoCtl", "Samples\Native_Controls\SliderDemoCtl\SliderDemoCtl.csproj", "{B802B8DD-C360-4986-B989-1426BA50814C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -158,6 +160,14 @@ Global
 		{114D32CA-7C02-4156-BD3B-CA5AEB5941B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{114D32CA-7C02-4156-BD3B-CA5AEB5941B8}.Release-Net40|Any CPU.ActiveCfg = Release|Any CPU
 		{114D32CA-7C02-4156-BD3B-CA5AEB5941B8}.Release-Net40|Any CPU.Build.0 = Release|Any CPU
+		{B802B8DD-C360-4986-B989-1426BA50814C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B802B8DD-C360-4986-B989-1426BA50814C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B802B8DD-C360-4986-B989-1426BA50814C}.Debug-Net40|Any CPU.ActiveCfg = Debug|Any CPU
+		{B802B8DD-C360-4986-B989-1426BA50814C}.Debug-Net40|Any CPU.Build.0 = Debug|Any CPU
+		{B802B8DD-C360-4986-B989-1426BA50814C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B802B8DD-C360-4986-B989-1426BA50814C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B802B8DD-C360-4986-B989-1426BA50814C}.Release-Net40|Any CPU.ActiveCfg = Release|Any CPU
+		{B802B8DD-C360-4986-B989-1426BA50814C}.Release-Net40|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -180,6 +190,7 @@ Global
 		{8EBAA609-3C95-45CA-B767-89C439406D31} = {10997C39-65FF-4FE0-8466-1122DE46EB6F}
 		{1EDBAE65-EDE3-4F0A-A392-A036E80AA8A0} = {10997C39-65FF-4FE0-8466-1122DE46EB6F}
 		{114D32CA-7C02-4156-BD3B-CA5AEB5941B8} = {10997C39-65FF-4FE0-8466-1122DE46EB6F}
+		{B802B8DD-C360-4986-B989-1426BA50814C} = {10997C39-65FF-4FE0-8466-1122DE46EB6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4636382-1A18-4079-A3E7-054DD970F179}
