@@ -23,7 +23,6 @@
     <PackageReference Include="MvvmLightLibsStd10" Version="5.4.1.1" />
     <!--<PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />-->
   </ItemGroup>
-
   <ItemGroup>
     <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\LangProvider.cs">
       <Link>Properties\Langs\LangProvider.cs</Link>
@@ -96,11 +95,21 @@
 
 
   <ItemGroup>
-    <Page Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\ButtonDemoCtl.xaml" Link="UserControl\Styles\ButtonDemoCtl.xaml">
+    <Page Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\BorderDemoCtl.xaml" Link="UserControl\Styles\BorderDemoCtl.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\ButtonDemoCtl.xaml.cs" Link="UserControl\Styles\ButtonDemoCtl.xaml.cs">
-      <DependentUpon>UserControl\Styles\ButtonDemoCtl.xaml</DependentUpon>
+    <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\BorderDemoCtl.xaml.cs" Link="UserControl\Styles\BorderDemoCtl.xaml.cs">
+      <DependentUpon>UserControl\Styles\BorderDemoCtl.xaml</DependentUpon>
     </Compile>
+
+    <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\Tools\Converter\StringRepeatConverter.cs" Link="Tools\Converter\StringRepeatConverter.cs">
+      
+    </Compile>
+    <!--<Compile Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\BorderDemoCtl.xaml.cs" Link="UserControl\Styles\BorderDemoCtl.xaml.cs">
+      
+    </Compile>
+    <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\BorderDemoCtl.xaml.cs" Link="UserControl\Styles\BorderDemoCtl.xaml.cs">
+      
+    </Compile>-->
   </ItemGroup>
 </Project>
