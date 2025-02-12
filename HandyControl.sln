@@ -58,6 +58,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeTextBoxDemoCtl", "Sam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeComboBoxDemoCtl", "Samples\Native_Controls\NativeComboBoxDemoCtl\NativeComboBoxDemoCtl.csproj", "{D5CED695-DC00-49F4-BB90-E1AFC1D07E2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativePasswordBoxDemoCtl", "Samples\Native_Controls\NativePasswordBoxDemoCtl\NativePasswordBoxDemoCtl.csproj", "{BC797A8C-3806-49AF-8A97-AA1019B7DD29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -198,6 +200,14 @@ Global
 		{D5CED695-DC00-49F4-BB90-E1AFC1D07E2D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D5CED695-DC00-49F4-BB90-E1AFC1D07E2D}.Release-Net40|Any CPU.ActiveCfg = Release|Any CPU
 		{D5CED695-DC00-49F4-BB90-E1AFC1D07E2D}.Release-Net40|Any CPU.Build.0 = Release|Any CPU
+		{BC797A8C-3806-49AF-8A97-AA1019B7DD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC797A8C-3806-49AF-8A97-AA1019B7DD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC797A8C-3806-49AF-8A97-AA1019B7DD29}.Debug-Net40|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC797A8C-3806-49AF-8A97-AA1019B7DD29}.Debug-Net40|Any CPU.Build.0 = Debug|Any CPU
+		{BC797A8C-3806-49AF-8A97-AA1019B7DD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC797A8C-3806-49AF-8A97-AA1019B7DD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC797A8C-3806-49AF-8A97-AA1019B7DD29}.Release-Net40|Any CPU.ActiveCfg = Release|Any CPU
+		{BC797A8C-3806-49AF-8A97-AA1019B7DD29}.Release-Net40|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -224,6 +234,7 @@ Global
 		{6333402D-5D05-4708-8E1A-52BE65264F53} = {10997C39-65FF-4FE0-8466-1122DE46EB6F}
 		{C1396718-880F-4EF3-8BBB-A0C0A1910DC2} = {10997C39-65FF-4FE0-8466-1122DE46EB6F}
 		{D5CED695-DC00-49F4-BB90-E1AFC1D07E2D} = {10997C39-65FF-4FE0-8466-1122DE46EB6F}
+		{BC797A8C-3806-49AF-8A97-AA1019B7DD29} = {10997C39-65FF-4FE0-8466-1122DE46EB6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4636382-1A18-4079-A3E7-054DD970F179}
