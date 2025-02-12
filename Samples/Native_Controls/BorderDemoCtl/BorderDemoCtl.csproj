@@ -103,13 +103,6 @@
     </Compile>
 
     <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\Tools\Converter\StringRepeatConverter.cs" Link="Tools\Converter\StringRepeatConverter.cs">
-      
     </Compile>
-    <!--<Compile Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\BorderDemoCtl.xaml.cs" Link="UserControl\Styles\BorderDemoCtl.xaml.cs">
-      
-    </Compile>
-    <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\BorderDemoCtl.xaml.cs" Link="UserControl\Styles\BorderDemoCtl.xaml.cs">
-      
-    </Compile>-->
   </ItemGroup>
 </Project>
