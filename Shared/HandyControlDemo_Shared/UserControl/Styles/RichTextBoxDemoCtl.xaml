@@ -6,7 +6,7 @@
              xmlns:ex="clr-namespace:HandyControlDemo.Tools.Extension"
              Background="{DynamicResource RegionBrush}">
     <hc:TransitioningContentControl>
-        <RichTextBox Margin="32" Width="400" Height="300" ScrollViewer.VerticalScrollBarVisibility="Auto">
+        <RichTextBox Margin="32" ScrollViewer.VerticalScrollBarVisibility="Auto">
             <FlowDocument>
                 <Paragraph>
                     <Run FontSize="20" Text="{ex:Lang Key={x:Static langs:LangKeys.Title},Converter={StaticResource StringRepeatConverter},ConverterParameter=20,Mode=OneWay}"/>
