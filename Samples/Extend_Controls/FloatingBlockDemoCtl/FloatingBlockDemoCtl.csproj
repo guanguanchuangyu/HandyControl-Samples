@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <Import Project="../../../Version.props" />
+  
+  <PropertyGroup>
+    <AssemblyName>HandyControlDemo</AssemblyName>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Resource Include="..\..\..\Shared\HandyControlDemo_Shared\Resources\Themes\Basic\Geometries.xaml">
+      <Link>Resources\Themes\Basic\Geometries.xaml</Link>
+    </Resource>
+    <Page Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\FloatingBlockDemoCtl.xaml" Link="UserControl\Controls\FloatingBlockDemoCtl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\FloatingBlockDemoCtl.xaml.cs" Link="UserControl\Controls\FloatingBlockDemoCtl.xaml.cs">
+      <DependentUpon>UserControl\Controls\FloatingBlockDemoCtl.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>
