@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <Import Project="../../../Version.props" />
+
+  <PropertyGroup>
+    <AssemblyName>HandyControlDemo</AssemblyName>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Page Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\MagnifierDemoCtl.xaml" Link="UserControl\Controls\MagnifierDemoCtl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\MagnifierDemoCtl.xaml.cs" Link="UserControl\Controls\MagnifierDemoCtl.xaml.cs">
+      <DependentUpon>UserControl\Controls\MagnifierDemoCtl.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="..\..\..\Shared\HandyControlDemo_Shared\Resources\Img\b1.jpg">
+      <Link>Resources\Img\b1.jpg</Link>
+    </Resource>
+  </ItemGroup>
+</Project>
