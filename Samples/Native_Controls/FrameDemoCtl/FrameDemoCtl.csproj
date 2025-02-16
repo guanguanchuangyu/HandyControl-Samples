@@ -1,28 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
-  <PropertyGroup>
-    <UseWPF>true</UseWPF>
-    <OutputType>WinExe</OutputType>
-    <AssemblyName>HandyControlDemo</AssemblyName>
-    <RootNamespace>HandyControlDemo</RootNamespace>
-    <TargetFrameworks>netcoreapp3.0;netcoreapp3.1;net45;net451;net452;net46;net461;net462;net47;net471;net472;net48;net481;net5.0-windows;net6.0-windows;net7.0-windows;net8.0-windows</TargetFrameworks>
-    <Nullable>enable</Nullable>
-    <ApplicationManifest>..\..\..\Shared\HandyControlDemo_Shared\app.manifest</ApplicationManifest>
-  </PropertyGroup>
-  <ItemGroup Condition="$(TargetFramework.StartsWith('net4'))">
-    <Reference Include="Microsoft.CSharp" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="HandyControl" Version="3.5.0" />
-    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="MvvmLightLibsStd10" Version="5.4.1.1" />
-    <!--<PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />-->
-  </ItemGroup>
+  <Import Project="../../../Version.props"/>
 
   <ItemGroup>
     <Page Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Styles\FrameDemoCtl.xaml" Link="UserControl\Styles\FrameDemoCtl.xaml">
