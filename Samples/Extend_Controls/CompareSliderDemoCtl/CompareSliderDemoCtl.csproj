@@ -1,0 +1,129 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <Import Project="../../../Version.props" />
+
+  <PropertyGroup>
+    <AssemblyName>HandyControlDemo</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AvalonEdit" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\Data\MessageToken.cs">
+      <Link>Data\MessageToken.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MessageToken.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\LangProvider.cs">
+      <Link>Properties\Langs\LangProvider.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LangProvider.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.Designer.cs">
+      <Link>Properties\Langs\Lang.Designer.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Lang.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\App.config">
+      <Link>Properties\App.config</Link>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\Tools\Extension\LangExtension.cs">
+      <Link>Tools\Extension\LangExtension.cs</Link>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.tr.resx">
+      <Link>Properties\Langs\Lang.tr.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.ca-ES.resx">
+      <Link>Properties\Langs\Lang.ca-ES.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.cs.resx">
+      <Link>Properties\Langs\Lang.cs.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.en.resx">
+      <Link>Properties\Langs\Lang.en.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.es.resx">
+      <Link>Properties\Langs\Lang.es.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.fa.resx">
+      <Link>Properties\Langs\Lang.fa.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.fr.resx">
+      <Link>Properties\Langs\Lang.fr.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.ja.resx">
+      <Link>Properties\Langs\Lang.ja.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.ko-KR.resx">
+      <Link>Properties\Langs\Lang.ko-KR.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.pt-BR.resx">
+      <Link>Properties\Langs\Lang.pt-BR.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.pl.resx">
+      <Link>Properties\Langs\Lang.pl.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.ru.resx">
+      <Link>Properties\Langs\Lang.ru.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\Shared\HandyControlDemo_Shared\Properties\Langs\Lang.resx">
+      <Link>Properties\Langs\Lang.resx</Link>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Lang.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\CompareSliderDemoCtl.xaml" Link="UserControl\Controls\CompareSliderDemoCtl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Compile Include="..\..\..\Shared\HandyControlDemo_Shared\UserControl\Controls\CompareSliderDemoCtl.xaml.cs" Link="UserControl\Controls\CompareSliderDemoCtl.xaml.cs">
+      <DependentUpon>UserControl\Controls\CompareSliderDemoCtl.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="..\..\..\Shared\HandyControlDemo_Shared\Resources\Img\icon.ico">
+      <Link>Resources\Img\icon.ico</Link>
+    </Resource>
+    <Resource Include="..\..\..\Shared\HandyControlDemo_Shared\Resources\Img\cloud.png">
+      <Link>Resources\Img\cloud.png</Link>
+    </Resource>
+    <Resource Include="..\..\..\Shared\HandyControlDemo_Shared\Resources\Img\b1.jpg">
+      <Link>Resources\Img\b1.jpg</Link>
+    </Resource>
+    <Resource Include="..\..\..\Shared\HandyControlDemo_Shared\Resources\Img\b2.jpg">
+      <Link>Resources\Img\b2.jpg</Link>
+    </Resource>
+    <Resource Include="..\..\..\Shared\HandyControlDemo_Shared\Resources/fabric-icons.ttf">
+      <Link>Resources/fabric-icons.ttf</Link>
+    </Resource>
+
+    <Page Include="..\..\..\Shared\HandyControlDemo_Shared\Resources\Themes\Styles\Style.xaml">
+      <Link>Resources\Themes\Styles\Style.xaml</Link>
+    </Page>
+    <Resource Include="..\..\..\Shared\HandyControlDemo_Shared\Resources\Themes\Basic\Fonts.xaml">
+      <Link>Resources\Themes\Basic\Fonts.xaml</Link>
+    </Resource>
+    <Resource Include="..\..\..\Shared\HandyControlDemo_Shared\Resources\Themes\Basic\Brushes.xaml">
+      <Link>Resources\Themes\Basic\Brushes.xaml</Link>
+    </Resource>
+    <Resource Include="..\..\..\Shared\HandyControlDemo_Shared\Resources\Themes\Basic\Geometries.xaml">
+      <Link>Resources\Themes\Basic\Geometries.xaml</Link>
+    </Resource>
+  </ItemGroup>
+
+</Project>
