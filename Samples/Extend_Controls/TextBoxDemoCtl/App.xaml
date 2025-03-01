@@ -1,8 +1,8 @@
-﻿<Application x:Class="NumericUpDownDemoCtl.App"
+﻿<Application x:Class="TextBoxDemoCtl.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:NumericUpDownDemoCtl"
-             xmlns:viewModel="clr-namespace:NumericUpDownDemoCtl.ViewModel"
+             xmlns:local="clr-namespace:TextBoxDemoCtl"
+             xmlns:viewModel="clr-namespace:TextBoxDemoCtl.ViewModel"
              xmlns:langs="clr-namespace:HandyControlDemo.Properties.Langs"
              xmlns:converter="clr-namespace:HandyControlDemo.Tools.Converter"
              StartupUri="MainWindow.xaml">
